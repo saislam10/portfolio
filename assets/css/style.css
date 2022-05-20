@@ -1,31 +1,106 @@
-.start {
-    background-color: antiquewhite;
+:root {
+    --color: aquamarine;
+    --purple: rgb(110, 110, 189);
+    --margin: 10px;
 }
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+
+.start {
+    background-color: var(--color);
+    margin: var(--margin);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
 
 .start h1 {
     font-size: 30px;
-    border-style: dashed;
-    border-width: 25%;
+    border-style: solid;
+}    
+.Titles {
+    border-style: solid;
 
 }
 
 nav{
     text-align: right;
+    margin: 10px;
+}
+nav a{
+    margin-left: 25px;
+
 }
 
+.AboutMe {
+    display: flex;
+    flex-direction: column;
+    margin: var(--margin)
+    
+}
 .AboutMe h2{
     font-size: 30px;
-    border-style: dashed;
-    border-width: 25%;
-
+    background-color: var(--color);
+   
+}
+.AboutMe p{
+    margin: var(--margin)
 }
 
-.AboutMe p{
-    justify-content: right;
+.AboutMe img {
+    max-height: 300px;
+    max-width: 300px;   
+}
+
+.PreviousWork {
+    display: flex;
+    flex-direction: column;
+    margin: var(--margin)
+    
 }
 
 .PreviousWork h2{
     font-size: 30px;
-    border-style: dashed;
-    border-width: 25%;
+    background-color: var(--color);
 }
+
+.PreviousWork img{
+    max-height: 300px;
+    max-width: 300px;      
+}
+
+
+.Contact h2{
+    font-size: 30px;;
+    margin: var(--margin);
+    background-color: var(--color);
+}
+
+
+.Nav2 {
+    text-align: right;
+    margin: var(--margin)
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .start {
+        background-color: var(--purple);
+    }
+    .AboutMe h2{
+        background-color: var(--purple);    }
+    .PreviousWork h2{
+        background-color: var(--purple);    }
+    .Contact h2{
+        background-color: var(--purple);    }
+  }
