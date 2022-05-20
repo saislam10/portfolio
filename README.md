@@ -18,5 +18,5 @@ In this website I have three sections. The three sections are an about me, which
 ![Portfolio](./assets/images/Safwan-Islam-Portfolio.png)
 
 ## Resources
-[LIVE SITE]()
-[Repository]()
+[LIVE SITE](https://saislam10.github.io/portfolio/)
+[Repository](https://github.com/saislam10/portfolio)
