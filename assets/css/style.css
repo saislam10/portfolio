@@ -14,44 +14,47 @@ main {
     margin-top: 5%;
   }
 
+.start nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+  }
+    
 .start {
     background-color: var(--color);
     margin: var(--margin);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 60px;
+    margin-top: 5%;
 }
 
-
 .start h1 {
-    font-size: 30px;
-    border-style: solid;
-}    
+    font-size: 70px;
+}
+
 .Titles {
     border-style: solid;
-
+    border-width: auto;
+    font-size: 30px;
+    background-color: var(--color);
 }
 
 nav{
     text-align: right;
     margin: 10px;
 }
+
 nav a{
     margin-left: 25px;
 
 }
 
 .AboutMe {
-    display: flex;
-    flex-direction: column;
     margin: var(--margin)
     
 }
-.AboutMe h2{
-    font-size: 30px;
-    background-color: var(--color);
-   
-}
+
 .AboutMe p{
     margin: var(--margin)
 }
@@ -62,36 +65,42 @@ nav a{
 }
 
 .PreviousWork {
-    display: flex;
-    flex-direction: column;
-    margin: var(--margin)
+    margin: var(--margin);
+    
     
 }
 
-.PreviousWork h2{
-    font-size: 30px;
-    background-color: var(--color);
-}
-
 .PreviousWork img{
+    margin: var(--margin);
     max-height: 300px;
     max-width: 300px;      
 }
-
-
-.Contact h2{
-    font-size: 30px;;
+.Contact{
     margin: var(--margin);
-    background-color: var(--color);
 }
-
 
 .Nav2 {
     text-align: right;
     margin: var(--margin)
 }
 
+#Work{
+    font: 20px;
+    color: black;
+    font-weight: bolder;
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+}
 
+#Work:hover{
+    opacity: .7;
+    background-image: url('https://thebrillianthealth.org/wp-content/uploads/2021/10/realistic-coming-soon-background_23-2148889082.jpg');
+    background-position: center;
+    background-size: 200px;
+    cursor: pointer;
+
+}
 
 @media screen and (max-width: 992px) {
     .start {
