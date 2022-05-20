@@ -47,12 +47,10 @@ nav{
 
 nav a{
     margin-left: 25px;
-
 }
 
 .AboutMe {
     margin: var(--margin)
-    
 }
 
 .AboutMe p{
@@ -62,12 +60,11 @@ nav a{
 .AboutMe img {
     max-height: 300px;
     max-width: 300px;   
+    margin: var(--margin);
 }
 
 .PreviousWork {
     margin: var(--margin);
-    
-    
 }
 
 .PreviousWork img{
