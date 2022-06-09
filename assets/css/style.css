@@ -80,9 +80,13 @@ nav a{
     text-align: right;
     margin: var(--margin)
 }
+.GH{
+    margin: 15px;
+}
 
 #Work{
     font: 20px;
+    background-color: rgb(193, 240, 224);
     color: black;
     font-weight: bolder;
     margin: 10px;
@@ -92,7 +96,7 @@ nav a{
 
 #Work:hover{
     opacity: .7;
-    background-image: url('https://thebrillianthealth.org/wp-content/uploads/2021/10/realistic-coming-soon-background_23-2148889082.jpg');
+    background-image: url('https://411press.net/wp-content/uploads/2020/06/music.png');
     background-position: center;
     background-size: 200px;
     cursor: pointer;
